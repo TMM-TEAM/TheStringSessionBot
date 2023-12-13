@@ -28,4 +28,13 @@ async def cb_choose(_, cq: CallbackQuery):
         except Exception as e:
             await cq.edit_message_text(e, disable_web_page_preview=True)
 
+@Anony.on_callback_query()
+async def callback(bot, msg)
+     if msg.data == "help"
+         await msg.message.edit(
+               text="hello world",
+               reply_markup=keyboard2,
+         )
+
+
 
