@@ -19,7 +19,8 @@ async def f_start(_, message: Message):
 @Anony.on_message(filters.command("help") & filters.private & filters.incoming)
 async def f_help(_, message: Message):
     await message.reply_text(
-        text=f"""✅ 𝗦𝘁𝗲𝗽𝘀 𝘁𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗦𝘁𝗿𝗶𝗻𝗴
+        text=f"""
+        ✅ 𝗦𝘁𝗲𝗽𝘀 𝘁𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗦𝘁𝗿𝗶𝗻𝗴
 
  ▪️ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ɪꜱ ɴᴇᴇᴅ ꜰᴏʀ ᴜꜱᴇʀʙᴏᴛꜱ, ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ꜰᴏʀ ʙᴏᴛʜ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ.
 
@@ -29,7 +30,7 @@ async def f_help(_, message: Message):
 
 2. ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴘᴜᴛ ᴏᴛᴘ ɪɴ 1 2 3 4 5 6 ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ.
 
-3. ɪꜰ ᴛꜰᴀ ᴇɴᴀʙʟᴇᴅ ɪɴ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ, ʙᴏᴛ ᴡɪʟʟ ᴀʟꜱᴏ ᴀꜱᴋ ᴛʜᴀᴛ ꜰᴏʀ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ᴘᴜʀᴘᴏꜱᴇ ᴏɴʟʏ.""",
+3. ɪꜰ ᴛꜰᴀ ᴇɴᴀʙʟᴇᴅ ɪɴ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ, ʙᴏᴛ ᴡɪʟʟ ᴀʟꜱᴏ ᴀꜱᴋ ᴛʜᴀᴛ ꜰᴏʀ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ᴘᴜʀᴘᴏꜱᴇ ᴏɴʟʏ.      """,
         reply_markup=keyboard2,
         disable_web_page_preview=True,
     )
