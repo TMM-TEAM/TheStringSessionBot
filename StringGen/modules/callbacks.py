@@ -30,26 +30,11 @@ async def cb_choose(_, cq: CallbackQuery):
 
 
 @Anony.on_callback_query(filters.regex("help"))
-async def help(_, query: CallbackQuery):
-    try:
-        await query.answer()
-    except:
-        pass
-    try:
-        await query.edit_message_text(
-            text="""✅ 𝗦𝘁𝗲𝗽𝘀 𝘁𝗼 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗦𝘁𝗿𝗶𝗻𝗴
-
- ▪️ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ɪꜱ ɴᴇᴇᴅ ꜰᴏʀ ᴜꜱᴇʀʙᴏᴛꜱ, ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ꜰᴏʀ ʙᴏᴛʜ ᴘʏʀᴏɢʀᴀᴍ & ᴛᴇʟᴇᴛʜᴏɴ.
-
- ▪️ ꜱᴇɴᴅ /start ᴛᴏ ꜱᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ.
-
-1. ɪ ɴᴇᴇᴅꜱ API_ID, API_HASH (ʙᴏᴛʜ ᴄᴀɴ ʙᴇ ɢᴇᴛ ꜰʀᴏᴍ my.telegram.org), ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴀɴᴅ ᴏɴᴇ ᴛɪᴍᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴄᴏᴅᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ʙᴇ ꜱᴇɴᴛ ᴛᴏ ʏᴏᴜʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ.
-
-2. ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴘᴜᴛ ᴏᴛᴘ ɪɴ 1 2 3 4 5 6 ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ.
-
-3. ɪꜰ ᴛꜰᴀ ᴇɴᴀʙʟᴇᴅ ɪɴ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ, ʙᴏᴛ ᴡɪʟʟ ᴀʟꜱᴏ ᴀꜱᴋ ᴛʜᴀᴛ ꜰᴏʀ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜱᴛʀɪɴɢ ᴘᴜʀᴘᴏꜱᴇ ᴏɴʟʏ."""
-            ),
-            reply_markup=keyboard2,
+async def cb_choose(_, cq: CallbackQuery):
+    await cq.answer()
+    query = cq.matches[0].group(1)
+    if query == "help":
+        return await cq.message.reply_text(
+            text="hello ",
+            reply_markup=gen_key,
         )
-    except:
-        pass
