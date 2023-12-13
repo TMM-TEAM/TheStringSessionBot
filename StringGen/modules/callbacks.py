@@ -31,9 +31,11 @@ async def cb_choose(_, cq: CallbackQuery):
 
 
 @Anony.on_callback_query(filters.regex"help"))
-async def help(_, query: CallbackQuery):
-     if query == "help":
-          await query.message.reply_text(
+async def help(_, cq: CallbackQuery):
+    await cq.answer()
+    query = cq.matches[0].group(1)
+    if query == "help":
+        return await cq.message.reply_text(
                text="hello world",
                reply_markup=keyboard2,
          )
