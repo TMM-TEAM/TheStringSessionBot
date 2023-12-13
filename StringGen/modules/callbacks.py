@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery
 
 from StringGen import Anony
-from StringGen.utils import gen_key
+from StringGen.utils import gen_key, keyboard2
 from StringGen.modules.gen import gen_session
 
 
