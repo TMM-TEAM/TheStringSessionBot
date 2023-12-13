@@ -28,10 +28,12 @@ async def cb_choose(_, cq: CallbackQuery):
         except Exception as e:
             await cq.edit_message_text(e, disable_web_page_preview=True)
 
-@Anony.on_callback_query()
-async def cb_choose(_, cq: CallbackQuery):
+
+
+@Anony.on_callback_query(filters.regex"help"))
+async def help(_, query: CallbackQuery):
      if query == "help":
-         return await cq.message.reply_text(
+          await query.message.reply_text(
                text="hello world",
                reply_markup=keyboard2,
          )
