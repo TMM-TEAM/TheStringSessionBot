@@ -5,11 +5,12 @@ from config import SUPPORT_CHAT, OWNER_ID
 
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="how to Use Me", callback_data="help")],
+        [InlineKeyboardButton(text="Hᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ❓", callback_data="help")],
         [
-            InlineKeyboardButton(text="Owner", url=f"https://t.me/lippsxd"),
+            InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ ⛵
+", url=f"https://t.me/lippsxd"),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/GJ516_DISCUSS_GROUP"
+                text="Uᴘᴅᴀᴛᴇꜱ 🎊", url=f"https://t.me/GJ516_DISCUSS_GROUP"
             ),
         ],
     ]
@@ -17,7 +18,7 @@ keyboard = InlineKeyboardMarkup(
 
 keyboard2 = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="gensession")],
+        [InlineKeyboardButton(text="💖 Gᴇɴᴇʀᴀᴛᴇ Sᴇssɪᴏɴ 💖", callback_data="gensession")],
         
     ]
 )
@@ -25,13 +26,13 @@ keyboard2 = InlineKeyboardMarkup(
 gen_key = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="ᴩʏʀᴏɢʀᴀᴍ v1", callback_data="pyrogram1"),
-            InlineKeyboardButton(text="ᴩʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
+            InlineKeyboardButton(text="Pʏʀᴏɢʀᴀᴍ v1 ", callback_data="pyrogram1"),
+            InlineKeyboardButton(text="Pʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
         ],
-        [InlineKeyboardButton(text="ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
+        [InlineKeyboardButton(text="Tᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
     ]
 )
 
 retry_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="ᴛʀʏ ᴀɢᴀɪɴ", callback_data="gensession")]]
+    [[InlineKeyboardButton(text="Tʀʏ Aɢᴀɪɴ 🙄", callback_data="gensession")]]
 )
