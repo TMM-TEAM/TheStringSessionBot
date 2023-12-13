@@ -19,7 +19,7 @@ async def f_start(_, message: Message):
 @Anony.on_message(filters.command("help") & filters.private & filters.incoming)
 async def f_help(_, message: Message):
     await message.reply_text(
-        text=f" help baby",
+        text=f"<b>ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !</b>",
         reply_markup=keyboard2,
         disable_web_page_preview=True,
     )
