@@ -29,9 +29,9 @@ async def cb_choose(_, cq: CallbackQuery):
             await cq.edit_message_text(e, disable_web_page_preview=True)
 
 @Anony.on_callback_query()
-async def callback(bot, msg)
-     if msg.data == "help"
-         await msg.message.edit(
+async def cb_choose(_, cq: CallbackQuery):
+     if query == "help":
+         return await cq.message.reply_text(
                text="hello world",
                reply_markup=keyboard2,
          )
