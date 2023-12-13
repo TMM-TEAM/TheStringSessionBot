@@ -29,12 +29,3 @@ async def cb_choose(_, cq: CallbackQuery):
             await cq.edit_message_text(e, disable_web_page_preview=True)
 
 
-@Anony.on_callback_query(filters.regex("help"))
-async def cb_choose(_, cq: CallbackQuery):
-    await cq.answer()
-    query = cq.matches[0].group(1)
-    if query == "help":
-        return await cq.message.reply_text(
-            text="hello ",
-            reply_markup=gen_key,
-        )
