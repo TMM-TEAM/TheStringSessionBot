@@ -7,7 +7,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text="how to Use Me", callback_data="help")],
         [
-            InlineKeyboardButton(text="Owner", url=f"https://t.me/lippsxd),
+            InlineKeyboardButton(text="Owner", url=f"https://t.me/lippsxd"),
             InlineKeyboardButton(
                 text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/GJ516_DISCUSS_GROUP"
             ),
