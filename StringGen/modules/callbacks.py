@@ -10,7 +10,7 @@ from StringGen.modules.gen import gen_session
     filters.regex(pattern=r"^(gensession|pyrogram|pyrogram1|telethon)$")
 )
 async def _callbacks(_, cq: CallbackQuery):
-    user = await bot.get_me()
+    user = await cq.get_me()
     # user_id = cq.from_user.id
     mention = user.mention
     query = cq.data.lower()
