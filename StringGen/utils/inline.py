@@ -7,9 +7,9 @@ keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text=" 會| ˹ᴀᴅᴅ ᴋʀɪᴛɪᴋᴀ ᴍᴜꜱɪᴄ ʙᴏᴛ˼ |會", url=f"https://t.me/KRITIKAMUSICBOT")],
         [
-            InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ ⛵", url=f"https://t.me/lippsxd"),
+            InlineKeyboardButton(text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ ⛵", url=f"https://t.me/lippsxd"),
             InlineKeyboardButton(
-                text="Uᴘᴅᴀᴛᴇꜱ 🎊", url=f"https://t.me/https://t.me/ThinkGrowMore"
+                text="𝐔ᴘᴅᴀᴛᴇꜱ 🎊", url=f"https://t.me/https://t.me/ThinkGrowMore"
             ),
         ],
     ]
@@ -17,7 +17,7 @@ keyboard = InlineKeyboardMarkup(
 
 keyboard2 = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="💖 Gᴇɴᴇʀᴀᴛᴇ Sᴇssɪᴏɴ 💖", callback_data="gensession")],
+        [InlineKeyboardButton(text="💖 𝐆ᴇɴᴇʀᴀᴛᴇ 𝐒ᴇssɪᴏɴ 💖", callback_data="gensession")],
         
     ]
 )
@@ -25,13 +25,12 @@ keyboard2 = InlineKeyboardMarkup(
 gen_key = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Pʏʀᴏɢʀᴀᴍ v1 ", callback_data="pyrogram1"),
-            InlineKeyboardButton(text="Pʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
-        ],
-        [InlineKeyboardButton(text="Tᴇʟᴇᴛʜᴏɴ", callback_data="telethon")],
+            InlineKeyboardButton(text="𝐏ʏʀᴏɢʀᴀᴍ v1 ", callback_data="pyrogram1"),
+            InlineKeyboardButton(text="𝐏ʏʀᴏɢʀᴀᴍ v2", callback_data="pyrogram"),
+        ],
     ]
 )
 
 retry_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="Tʀʏ Aɢᴀɪɴ 🙄", callback_data="gensession")]]
+    [[InlineKeyboardButton(text="𝐓ʀʏ 𝐀ɢᴀɪɴ 🙄", callback_data="gensession")]]
 )
