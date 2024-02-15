@@ -251,7 +251,7 @@ async def gen_session(
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs 💦",
+                            text="𝐒ᴀᴠᴇᴅ 𝐌ᴇssᴀɢᴇs 💦",
                             url=f"tg://openmessage?user_id={user_id}",
                         )
                     ]
