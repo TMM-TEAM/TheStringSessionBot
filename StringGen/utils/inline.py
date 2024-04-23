@@ -33,5 +33,5 @@ gen_key = InlineKeyboardMarkup(
 )
 
 retry_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="𝐓ʀʏ 𝐀ɢᴀɪɴ 🙄", callback_data="gensession")]]
+    [[InlineKeyboardButton(text="𝐓ʀʏ 𝐀ɢᴀɪɴ 🥱", callback_data="gensession")]]
 )
