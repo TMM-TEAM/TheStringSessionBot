@@ -17,7 +17,7 @@ THEMOHMAYA/THEMOHMAYA is a ✨ _special_ ✨ repository because its README.md (t
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 ★
 </h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️++𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐓𝐇𝐄+𝗠𝗢𝗛+𝗠𝗔𝗬𝗔+🎭">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐓𝐇𝐄+𝗠𝗢𝗛+𝗠𝗔𝗬𝗔+🎭">
 <p align="center">
   <img src="https://graph.org/file/c6df8f5ffb7f0820b269a.jpg">
 </p>
