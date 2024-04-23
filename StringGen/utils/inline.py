@@ -5,7 +5,7 @@ from config import SUPPORT_CHAT, OWNER_ID
 
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text=" 會|  丂ᴘᴏᴛɪғʏ ᴍᴜsɪᴄ |會", url=f"https://t.me/Spotify_x_music_bot")],
+        [InlineKeyboardButton(text=" 會| 丂ᴘᴏᴛɪғʏ ᴍᴜsɪᴄ |會", url=f"https://t.me/Spotify_x_music_bot")],
         [
             InlineKeyboardButton(text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ ⛵", url=f"https://t.me/tmm_heroku_world"),
             InlineKeyboardButton(
