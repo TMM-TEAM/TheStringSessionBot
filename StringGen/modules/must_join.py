@@ -1,4 +1,4 @@
-'''from config import MUST_JOIN
+from config import MUST_JOIN
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
@@ -27,5 +27,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"Promote me as an admin in the MUST_JOIN chat : {MUST_JOIN} !")
-'''
+        print(f"Promote me as an admin in the MUST_JOIN chat : {MUST_JOIN} !"
